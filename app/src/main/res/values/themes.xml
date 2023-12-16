@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KitabimCebimde" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your light theme here. -->
+
+        <item name="colorPrimary">@color/StartdarkColor</item>
+        <item name="colorPrimaryVariant">@color/StartdarkColor</item>
+        <item name="android:statusBarColor">@color/StartdarkColor</item>
+
+    </style>
+
+    <style name="Theme.KitabimCebimde" parent="Base.Theme.KitabimCebimde" />
+    
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/EndOpenColor</item>
+
+    </style>
+</resources>

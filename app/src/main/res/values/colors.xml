@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="ButtonColor">	#B5A077</color>
+    <color name="StartdarkColor">#756341</color>
+    <color name="EndOpenColor">	#5C7AA0</color>
+    <color name="centerColor">	#DAE6F5</color>
+    <color name="kahverengi">	#F5DEB3</color>
+    <color name="krem">#ffe5b4</color>
+
+</resources>

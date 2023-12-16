@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/constrainarkaplan"
+    tools:context=".ApplicationProfilePageFragment">
+
+    <ImageView
+        android:id="@+id/AppimageView"
+        android:layout_width="169dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/AppNameSurname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/AppNameSurname"
+        android:layout_width="301dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:text="AD VE SOYAD"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toTopOf="@+id/UpdateInformationButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AppimageView" />
+
+    <Button
+        android:id="@+id/AppLogOutButton"
+        android:layout_width="263dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="97dp"
+        android:background="@drawable/buttonarkaplan"
+        android:backgroundTint="@color/ButtonColor"
+        android:text="Çıkış yap"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DeleteAccountButton" />
+
+    <Button
+        android:id="@+id/UpdateInformationButton"
+        android:layout_width="258dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/buttonarkaplan"
+        android:backgroundTint="@color/ButtonColor"
+        android:text="Bilgilerimi Güncelle"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/AppImageChangeButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AppNameSurname" />
+
+    <Button
+        android:id="@+id/AppImageChangeButton"
+        android:layout_width="261dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/buttonarkaplan"
+        android:backgroundTint="@color/ButtonColor"
+        android:text="Profil Fotoğrafını Değiştir"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/DeleteAccountButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UpdateInformationButton" />
+
+    <Button
+        android:id="@+id/DeleteAccountButton"
+        android:layout_width="263dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/buttonarkaplan"
+        android:backgroundTint="@color/ButtonColor"
+        android:text="Hesabımı Sil"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/AppLogOutButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AppImageChangeButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

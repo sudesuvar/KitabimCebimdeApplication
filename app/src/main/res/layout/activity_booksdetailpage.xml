@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/constrainarkaplan"
+    android:orientation="vertical"
+    tools:context=".BooksDetailPageActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/detayKitapFoto"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="20px"
+                android:src="@drawable/books" />
+
+            <TextView
+                android:id="@+id/detayKitapİsmi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kitap Adı"
+                android:textAlignment="center"
+                android:textColor="@color/EndOpenColor"
+                android:textIsSelectable="false"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/detayKitapAcıklama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10px"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10px"
+                android:text="Kitap Açıklama"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/detaygerigelbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200px"
+                android:layout_marginTop="30px"
+                android:layout_marginEnd="200px"
+                android:layout_marginRight="20px"
+                android:layout_marginBottom="30px"
+                android:background="@drawable/buttonarkaplan"
+                android:backgroundTint="@color/ButtonColor"
+                android:text="Geri git"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/detaykaydetbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200px"
+                android:layout_marginTop="20px"
+                android:layout_marginEnd="200px"
+                android:background="@drawable/buttonarkaplan"
+                android:backgroundTint="@color/ButtonColor"
+                android:text="Kitabı Kaydet"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/detayKaydedilenlerdencıkButton"
+                android:layout_width="281dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="165px"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonarkaplan"
+                android:backgroundTint="@color/ButtonColor"
+                android:text="Kaydedilenlerden çıkar"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

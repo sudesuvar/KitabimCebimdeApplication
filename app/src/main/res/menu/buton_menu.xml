@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/buton_Giris"
+        android:title="Anasayfa"
+        android:icon="@drawable/baseline_home_24" />
+    <item
+        android:id="@+id/buton_arama"
+        android:title="Arama"
+        android:icon="@drawable/search" />
+    <item
+        android:id="@+id/buton_kaydedilenler"
+        android:title="kaydedilenler"
+        android:icon="@drawable/baseline_bookmark_add_24" />
+    <item
+        android:id="@+id/buton_satınAl"
+        android:title="Alışveriş"
+        android:icon="@drawable/shopping_cart" />
+    <item
+        android:id="@+id/buton_profile"
+        android:title="Profil"
+        android:icon="@drawable/person" />
+
+
+
+</menu>

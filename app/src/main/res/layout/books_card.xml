@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/constrainarkaplan"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kitaparkaplan"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/KitapImage"
+            android:layout_width="211dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:src="@drawable/amok_kosucusu" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/KitapAditextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="Kitap Adı"
+                android:textAlignment="center"
+                android:textColor="@color/EndOpenColor"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/KitapAciklamatextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:text="Kitap Açıklama"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

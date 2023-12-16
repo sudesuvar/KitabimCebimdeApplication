@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "210447821202",
+    "project_id": "kitabimcebimde",
+    "storage_bucket": "kitabimcebimde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210447821202:android:6fc05ebab6261c7a00394b",
+        "android_client_info": {
+          "package_name": "com.sudedenizsuvar.kitabimcebimde"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbSqRTqWe2XQ0STbZbLvd-tA06IWOYcH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
